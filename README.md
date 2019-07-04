@@ -1,3 +1,9 @@
+# Overview
+This is the official API client for the FalconX API.
+
+API Documentation: http://docs.falconx.io
+
+
 # Quickstart
 
 ```python
@@ -11,7 +17,7 @@ result = fnx.execute_quote(quote['fx_quote_id'], 'buy')
 ```
 
 # Installation
-Clone the git and add directory to PYTHONPATH
+Clone the git repo and add directory to PYTHONPATH
 
 Install requirements:
 ```sh
