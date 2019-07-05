@@ -17,11 +17,8 @@ result = fnx.execute_quote(quote['fx_quote_id'], 'buy')
 ```
 
 # Installation
-Clone the git repo and add directory to PYTHONPATH
-
-Install requirements:
 ```sh
-pip install -r requirements.txt
+pip install falconx-py
 ```
 
 # About FalconX
