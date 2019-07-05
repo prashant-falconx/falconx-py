@@ -16,13 +16,9 @@ class FalconxClient:
     URL = "https://api.falconx.io/v1/"
 
     def __init__(self, key=None, secret=None, passphrase=None):
-        self.key = key
-        self.secret = secret
-        self.passphrase = passphrase
-
         self.auth = None
         if key and secret and passphrase:
-            self.auth = FXRfqAuth(self.key, self.secret, self.passphrase)
+            self.auth = FXRfqAuth(key, secret, passphrase)
 
     def _process_response(self, response: Response):
         if response.status_code == 200:
